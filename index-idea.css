@@ -1,0 +1,75 @@
+body {
+  margin: 4% 4% 4% 4%;
+  font-size: 2.8vmax;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #42cda6; /* if gradient is not supported */
+  background-image: linear-gradient(to right, #309790, #42cda6);
+}
+
+img.intext {
+  height: 3.5vmax;
+  margin-bottom: -0.9vmax;
+}
+
+div {
+  margin: 1.5vmax;
+}
+
+div.title1 {
+  margin-top: 3.2vmax;
+  margin-bottom: 0vmax;
+  color: #152248;
+}
+
+div.title2 {
+  margin-top: -2.6vmax;
+  margin-bottom: 3.2vmax;
+  color: #152248;
+}
+
+strong {
+  color: #152248;
+}
+
+a {
+  color: #888888;
+}
+
+a:visited {
+  color: #606060;
+}
+
+code {
+  font-size: 90%;
+}
+
+.liex {
+  font-style: italic;
+}
+
+.calligraphic {
+  font-family: 'Tangerine', serif;
+  font-weight: bold;
+  font-size: 13vmax;
+}
+
+
+.alert {
+  font-weight: bold;
+  color: #253250;
+  background: #dfd2b5;
+  padding-top: .18vmax;
+  padding-bottom: .18vmax;
+  padding-left: .6vmax;
+  padding-right: .6vmax;
+  -webkit-border-radius: .6vmax;
+  -moz-border-radius: .6vmax;
+  border-radius: .6vmax;
+}
+
+.s {
+  font-size: smaller;
+}
+
