@@ -3,8 +3,14 @@ body {
   font-size: 2.8vmax;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   text-align: center;
-  color: black;
-  background: white;
+  color: white;
+  background-color: #309790; /* if gradient is not supported */
+  background-image: linear-gradient(to right, #309790, #42cda6);
+}
+
+img.intext {
+  height: 3.5vmax;
+  margin-bottom: -0.9vmax;
 }
 
 div {
@@ -14,11 +20,17 @@ div {
 div.title1 {
   margin-top: 3.2vmax;
   margin-bottom: 0vmax;
+  color: #152248;
 }
 
 div.title2 {
   margin-top: -2.6vmax;
   margin-bottom: 3.2vmax;
+  color: #152248;
+}
+
+strong {
+  color: #152248;
 }
 
 a {
@@ -41,7 +53,6 @@ code {
   font-family: 'Tangerine', serif;
   font-weight: bold;
   font-size: 13vmax;
-  color: black;
 }
 
 
