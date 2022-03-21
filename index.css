@@ -1,6 +1,6 @@
 body {
   margin: 4% 4% 4% 4%;
-  font-size: 2.8vmax;
+  font-size: 2.5vmax;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   text-align: center;
   color: white;
@@ -9,23 +9,23 @@ body {
 }
 
 img.intext {
-  height: 3.5vmax;
-  margin-bottom: -0.9vmax;
+  height: 3.2vmax;
+  margin-bottom: -0.8vmax;
 }
 
 div {
-  margin: 1.5vmax;
+  margin: 1.4vmax;
 }
 
 div.title1 {
-  margin-top: 3.2vmax;
+  margin-top: 2.9vmax;
   margin-bottom: 0vmax;
   color: #152248;
 }
 
 div.title2 {
-  margin-top: -2.6vmax;
-  margin-bottom: 3.2vmax;
+  margin-top: -2.5vmax;
+  margin-bottom: 2.9vmax;
   color: #152248;
 }
 
@@ -34,42 +34,26 @@ strong {
 }
 
 a {
-  color: #888888;
+  color: white;
+  text-decoration-color: #152248;
 }
 
 a:visited {
-  color: #606060;
+  color: white;
+  text-decoration-color: #152248;
 }
 
 code {
   font-size: 90%;
-}
-
-.liex {
-  font-style: italic;
+  color: #152248;
 }
 
 .calligraphic {
   font-family: 'Tangerine', serif;
   font-weight: bold;
-  font-size: 13vmax;
-}
-
-
-.alert {
-  font-weight: bold;
-  color: #253250;
-  background: #dfd2b5;
-  padding-top: .18vmax;
-  padding-bottom: .18vmax;
-  padding-left: .6vmax;
-  padding-right: .6vmax;
-  -webkit-border-radius: .6vmax;
-  -moz-border-radius: .6vmax;
-  border-radius: .6vmax;
+  font-size: 14vmax;
 }
 
 .s {
-  font-size: smaller;
+  font-size: 90%;
 }
-
